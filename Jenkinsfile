@@ -22,7 +22,7 @@ pipeline {
                         dir("terraform")
                         {
                             git "https://github.com/karthikallada/week-24-project"
-                            credentialsId: 'karthik112@gmail.com'
+                            credentialsId: 'paremodelingautomation@gmail.com'
                         }
                     }
                 }
